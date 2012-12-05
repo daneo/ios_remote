@@ -1,0 +1,803 @@
+TBTLE Transfer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist"
+cProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" normal i386
+cGenerateDSYMFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"
+cCopyStringsFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"
+cCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"
+cCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"
+cCpResource "BTLE Transfer/../Icon-57.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png"
+cCpResource "BTLE Transfer/../Icon-114.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png"
+cCpResource "BTLE Transfer/../Icon-72.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.png"
+cCpResource "BTLE Transfer/../Icon-144.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png"
+cCpResource "BTLE Transfer/../Default-Portrait@2x~ipad.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.png"
+cCpResource "BTLE Transfer/../Default-Portrait~ipad.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.png"
+cCpResource "BTLE Transfer/../Default-568h@2x.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.png"
+cTouch "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000509300790000000000000110
+t1351811193
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+c0000000050887BEF0000000000027A30
+t1351121903
+s162352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050887BEF0000000000228FD0
+t1351121903
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050887BF200000000003DCEF0
+t1351121906
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050887BF100000000000015F7
+t1351121905
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050887BF60000000000000E8D
+t1351121910
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050887BF80000000000AB3D60
+t1351121912
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c0000000050887C090000000000001B54
+t1351121929
+s6996
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-568h@2x.png
+c00000000505D00E60000000000008C91
+t1348272358
+s35985
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-Portrait@2x~ipad.png
+c00000000505D00E6000000000000E48F
+t1348272358
+s58511
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-Portrait~ipad.png
+c00000000505CB32400000000000049DE
+t1348252452
+s18910
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-114.png
+c00000000505CB3240000000000000666
+t1348252452
+s1638
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-144.png
+c00000000505CB3240000000000000A68
+t1348252452
+s2664
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-57.png
+c00000000505CB3240000000000000544
+t1348252452
+s1348
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-72.png
+c00000000505CB3240000000000000938
+t1348252452
+s2360
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+c00000000507DB8E500000000000010DF
+t1350416613
+s4319
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist
+c00000000505CB3240000000000000744
+t1348252452
+s1860
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch
+c00000000505CB3240000000000000145
+t1348252452
+s325
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+c00000000507DB8E50000000000003044
+t1350416613
+s12356
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+c00000000507DB8E500000000000028E6
+t1350416613
+s10470
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m
+c00000000505CB4490000000000000B33
+t1348252745
+s2867
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/InfoPlist.strings
+c00000000505CB449000000000000002D
+t1348252745
+s45
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard
+c00000000505CB44900000000000035FF
+t1348252745
+s13823
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard
+c00000000505CB4490000000000003703
+t1348252745
+s14083
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m
+c00000000505CB4490000000000000A63
+t1348252745
+s2659
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o
+t1354064949
+s86360
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLE Transfer.LinkFileList
+c0000000050B7F26900000000000002C3
+t1354232425
+s707
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o
+t1354064949
+s107080
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o
+t1354064949
+s106416
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o
+t1354064949
+s67532
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o
+t1354064949
+s3300
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app
+t1354064952
+s442
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM
+t1354064951
+s102
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer
+t1354064951
+s58288
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.png
+t1354064951
+s35985
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.png
+t1354064951
+s58511
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.png
+t1354064951
+s18910
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png
+t1354064951
+s1638
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png
+t1354064951
+s2664
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png
+t1354064951
+s1348
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.png
+t1354064951
+s2360
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist
+t1354064947
+s1193
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/PkgInfo
+t1354064947
+s8
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings
+t1354064951
+s42
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1354064952
+s306
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1354064951
+s306
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Default-568h@2x.png
+c00000000505D00E60000000000008C91
+t1348272358
+s35985
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Default-Portrait@2x~ipad.png
+c00000000505D00E6000000000000E48F
+t1348272358
+s58511
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Default-Portrait~ipad.png
+c00000000505CB32400000000000049DE
+t1348252452
+s18910
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-114.png
+c00000000505CB3240000000000000666
+t1348252452
+s1638
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-144.png
+c00000000505CB3240000000000000A68
+t1348252452
+s2664
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-57.png
+c00000000505CB3240000000000000544
+t1348252452
+s1348
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-72.png
+c00000000505CB3240000000000000938
+t1348252452
+s2360
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist
+c00000000505CB3240000000000000744
+t1348252452
+s1860
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch
+c00000000505CB3240000000000000145
+t1348252452
+s325
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/TransferService.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/InfoPlist.strings
+c00000000505CB449000000000000002D
+t1348252745
+s45
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard
+c00000000505CB44900000000000035FF
+t1348252745
+s13823
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard
+c00000000505CB4490000000000003703
+t1348252745
+s14083
+
+N/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o
+t1354064949
+s86360
+
+N/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLE Transfer.LinkFileList
+c0000000050B5643300000000000002CD
+t1354064947
+s717
+
+N/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o
+t1354064949
+s107080
+
+N/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o
+t1354064949
+s106416
+
+N/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o
+t1354064949
+s67532
+
+N/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o
+t1354064949
+s3300
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app
+t1354064952
+s442
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM
+t1354064951
+s102
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer
+t1354064951
+s58288
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.png
+t1354064951
+s35985
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.png
+t1354064951
+s58511
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.png
+t1354064951
+s18910
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png
+t1354064951
+s1638
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png
+t1354064951
+s2664
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png
+t1354064951
+s1348
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.png
+t1354064951
+s2360
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist
+t1354064947
+s1193
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/PkgInfo
+t1354064947
+s8
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings
+t1354064951
+s42
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1354064952
+s306
+
+N/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1354064951
+s306
+
+N/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.pth
+t1354064948
+s4840528
+
+N/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.pth
+t2
+s0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m"
+r0
+
+CBuild AST from "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies761996e92968b641^2ac7b8e92968b641^---0#1#0#--18"Check dependencies36"2FB642D8-3BBF-4454-A704-53167B04AFA3-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375925227.861628
+e375925227.983395
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m2cbbdceb2968b641^62bffbeb2968b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/AppDelegate.m0000000000000000^3650"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o" "BTLE Transfer/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o"36"CB381A55-B254-490C-89D9-C65F234B58E0-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375757748.832278
+e375757749.220010
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.m4834d5b49b65b641^846538b59b65b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/AppDelegate.m0000000000000000^3676"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o" "BTLE Transfer/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Downloads/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/AppDelegate.m" -o "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/AppDelegate.o"36"CE6B2C6B-3AA1-442A-A417-F5E4BD054935-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375925227.984753
+e375925228.130120
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m1c3ffceb2968b641^9c5321ec2968b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLECentralViewController.m0000000000000000^3734"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o" "BTLE Transfer/BTLECentralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o"36"36D9733D-110A-40E5-B898-4BCCA24ECF45-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375757749.221744
+e375757749.376796
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m74ec38b59b65b641^fb7460b59b65b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/BTLECentralViewController.m0000000000000000^3760"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o" "BTLE Transfer/BTLECentralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Downloads/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.d" --serialize-diagnostics "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.dia" -c "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" -o "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLECentralViewController.o"36"E908D085-570B-40E1-B6EA-075AFCEDB80C-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375925227.478079
+e375925227.914362
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.mf6967aeb2968b641^5112eaeb2968b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLEPeripheralViewController.m0000000000000000^3752"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o" "BTLE Transfer/BTLEPeripheralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o"36"24509F0A-08D4-4A15-937D-A0750079D9C7-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375757749.264404
+e375757749.390829
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.maad543b59b65b641^d40d64b59b65b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/BTLEPeripheralViewController.m0000000000000000^3778"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o" "BTLE Transfer/BTLEPeripheralViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Downloads/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.d" --serialize-diagnostics "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.dia" -c "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" -o "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLEPeripheralViewController.o"36"F41D70A8-2DEB-4ACC-9FC8-71CCC96CB638-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375925227.915720
+e375925228.012892
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m9f93eaeb2968b641^3c4c03ec2968b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/ViewController.m0000000000000000^3668"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o" "BTLE Transfer/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o"36"236E4C14-A956-4E88-8A90-440160916ACB-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375757748.831159
+e375757749.196136
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.mb7f0d4b49b65b641^0d3532b59b65b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/ViewController.m0000000000000000^3694"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o" "BTLE Transfer/ViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Downloads/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.d" --serialize-diagnostics "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.dia" -c "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/ViewController.m" -o "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/ViewController.o"36"63BC2CAB-452E-43DB-B2AA-1045817D4F38-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375925227.478085
+e375925227.860266
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m0b967aeb2968b641^813fdceb2968b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/main.m0000000000000000^3608"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o" "BTLE Transfer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o"36"09A166A8-FCF2-4573-A3F5-5F2B319A0580-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375757749.197462
+e375757749.263069
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/main.mffb332b59b65b641^de5943b59b65b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/main.m0000000000000000^3634"CompileC "build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o" "BTLE Transfer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Downloads/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.dia" -c "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/main.m" -o "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/main.o"36"F9B70A7F-F466-4060-A319-0AFE0AE240EC-
+
+CCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"
+r0
+
+CCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"
+r0
+
+CCompileStoryboard "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"
+s375757751.117143
+e375757752.499230
+r1
+xCompileStoryboard
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"b2131eb79b65b641^9ad17fb89b65b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^974"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"    cd /Users/dane/Downloads/BTLE_Transfer    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/MainStoryboard_iPad.storyboardc" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"7FD10409-795A-4D1F-9229-27E6947AADEB-
+
+CCompileStoryboard "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"
+s375757751.111615
+e375757751.564861
+r1
+xCompileStoryboard
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"c6a71cb79b65b641^412e91b79b65b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^980"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"    cd /Users/dane/Downloads/BTLE_Transfer    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/MainStoryboard_iPhone.storyboardc" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"71EB8DBF-8806-46AE-9C3E-41A5139D6D4D-
+
+CCopyStringsFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"
+r0
+
+CCopyStringsFile "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"
+s375757751.111081
+e375757751.115953
+r1
+xCopyStringsFile
+x/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings
+xBTLE Transfer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy BTLE Transfer/en.lproj/InfoPlist.stringsca8b1cb79b65b641^4ab31db79b65b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/en.lproj/InfoPlist.strings0000000000000000^601"CopyStringsFile "build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/en.lproj" -- "BTLE Transfer/en.lproj/InfoPlist.strings"36"0F254264-D884-4D99-BA77-EAE61E436E21-
+
+CCpResource "BTLE Transfer/../Default-568h@2x.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.png"
+s375757751.622026
+e375757751.625249
+r1
+xCpResource
+xBTLE Transfer/../Default-568h@2x.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.pngfc529fb79b65b641^5b25a0b79b65b641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Default-568h@2x.png000000000080d041^627"CpResource "BTLE Transfer/../Default-568h@2x.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-568h@2x.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Default-568h@2x.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"388AB6B1-9887-4252-B460-0468AFF6B930-
+
+CCpResource "BTLE Transfer/../Default-Portrait@2x~ipad.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.png"
+s375757751.612322
+e375757751.616273
+r1
+xCpResource
+xBTLE Transfer/../Default-Portrait@2x~ipad.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.pnge0d79cb79b65b641^f4c29db79b65b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Default-Portrait@2x~ipad.png000000000080d041^654"CpResource "BTLE Transfer/../Default-Portrait@2x~ipad.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait@2x~ipad.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Default-Portrait@2x~ipad.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"096C66D5-F9ED-4CC6-BA03-79A46EDBA0F9-
+
+CCpResource "BTLE Transfer/../Default-Portrait~ipad.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.png"
+s375757751.617671
+e375757751.620608
+r1
+xCpResource
+xBTLE Transfer/../Default-Portrait~ipad.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.pngec349eb79b65b641^1ae09eb79b65b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Default-Portrait~ipad.png000000000080d041^645"CpResource "BTLE Transfer/../Default-Portrait~ipad.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Default-Portrait~ipad.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Default-Portrait~ipad.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"0AB5F498-D31B-45A7-B887-8F87E538EC6A-
+
+CCpResource "BTLE Transfer/../Icon-114.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png"
+s375757751.572666
+e375757751.579675
+r1
+xCpResource
+xBTLE Transfer/../Icon-114.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png8aaf92b79b65b641^846594b79b65b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Icon-114.png000000000080d041^606"CpResource "BTLE Transfer/../Icon-114.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-114.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-114.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"8F084A83-3E6A-4A78-BF83-7413F128F5C0-
+
+CCpResource "BTLE Transfer/../Icon-144.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png"
+s375757751.595471
+e375757751.604154
+r1
+xCpResource
+xBTLE Transfer/../Icon-144.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png9c8a98b79b65b641^b9e29ab79b65b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Icon-144.png000000000080d041^606"CpResource "BTLE Transfer/../Icon-144.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-144.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-144.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"8AEA3EDA-2F2D-4843-8052-B734F3B974E9-
+
+CCpResource "BTLE Transfer/../Icon-57.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png"
+s375757751.567440
+e375757751.571321
+r1
+xCpResource
+xBTLE Transfer/../Icon-57.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png1c5d91b79b65b641^704192b79b65b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Icon-57.png000000000080d041^603"CpResource "BTLE Transfer/../Icon-57.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-57.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-57.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"FC1EE43E-9846-427A-9F7B-48E524AF5557-
+
+CCpResource "BTLE Transfer/../Icon-72.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.png"
+s375757751.581013
+e375757751.583996
+r1
+xCpResource
+xBTLE Transfer/../Icon-72.png
+xbuild/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.pngf2d394b79b65b641^6d9095b79b65b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app/Icon-72.png000000000080d041^603"CpResource "BTLE Transfer/../Icon-72.png" "build/Debug-iphonesimulator/BTLE Transfer.app/Icon-72.png"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/../Icon-72.png" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"A3270730-1805-4BC5-81A6-47DCD7872CB6-
+
+CGenerateDSYMFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"
+s375925229.116712
+e375925229.197516
+r1
+xGenerateDSYMFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generating /Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM7afd1ded2968b641^d28f32ed2968b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app.dSYM/0000000000000000^654"GenerateDSYMFile "build/Debug-iphonesimulator/BTLE Transfer.app.dSYM" "build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" -o "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM"36"0BD3DE83-A76B-46C4-9249-14EA252168DC-
+
+CGenerateDSYMFile "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM" "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"
+s375757751.017650
+e375757751.102919
+r1
+xGenerateDSYMFile
+x/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM
+x/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Generating /Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM399d04b79b65b641^ad691ab79b65b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE%20Transfer.app.dSYM000000000080d041^660"GenerateDSYMFile "build/Debug-iphonesimulator/BTLE Transfer.app.dSYM" "build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" -o "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app.dSYM"36"1B9EA83B-E00E-461E-962E-08BBE38BF8D6-
+
+CLd "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" normal i386
+s375925228.137341
+e375925229.110227
+r1
+xLd
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer564623ec2968b641^c1381ced2968b641^---0#0#0#--1195"Ld "build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" normal i386    cd /Users/dane/Desktop/BTLE_Transfer    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator -filelist "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLE Transfer.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"36"407798FD-1B0F-47A1-81ED-82FE292060D6-
+
+CLd "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" normal i386
+s375757749.397753
+e375757751.010674
+r1
+xLd
+x/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer2cf465b59b65b641^41bc02b79b65b641^---0#0#0#--1205"Ld "build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer" normal i386    cd /Users/dane/Downloads/BTLE_Transfer    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator -filelist "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/Objects-normal/i386/BTLE Transfer.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/BTLE Transfer"36"A573F745-F781-41C4-9D0B-4F41B8254ADD-
+
+CProcessInfoPlistFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist"
+r0
+
+CProcessInfoPlistFile "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist" "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist"
+s375757747.777835
+e375757747.783401
+r1
+xProcessInfoPlistFile
+x/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist
+x/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.pliste04dc7b39b65b641^ed9ec8b39b65b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/BTLE%20Transfer-Info.plist0000000000000000^729"ProcessInfoPlistFile "build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist" "BTLE Transfer/BTLE Transfer-Info.plist"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist" -genpkginfo "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app/Info.plist"36"A02A8E71-FC94-48FB-A492-E61D4261C058-
+
+CProcessPCH "/Users/dane/Library/Developer/Xcode/DerivedData/BTLE_Transfer-bquiqqhtzropmpagxvbvnmmgcoiv/Index/PrecompiledHeaders/BTLE Transfer-Prefix-dwnalzeqizuubuhhjaebuyydyugd_ast/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/dane/Library/Developer/Xcode/DerivedData/BTLE_Transfer-dqhavhekzwpsuecmpmdqwuugvpmb/Index/PrecompiledHeaders/BTLE Transfer-Prefix-efasmzzauxdvcoavjmxrvnalrcct_ast/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375757747.791872
+e375757748.824399
+r1
+xProcessPCH
+x/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.pth
+xBTLE Transfer/BTLE Transfer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile BTLE Transfer/BTLE Transfer-Prefix.pch8cf8cab39b65b641^693ad3b49b65b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/dane/Downloads/BTLE_Transfer/BTLE%20Transfer/BTLE%20Transfer-Prefix.pch0000000000000000^3699"ProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Downloads/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Downloads/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator --serialize-diagnostics "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.dia" -c "/Users/dane/Downloads/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch" -o "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-bqzxmozdygqqcwgyyoxhyhgpvlsy/BTLE Transfer-Prefix.pch.d"36"92911D57-218E-4A05-9DA8-4ACC789C88A1-
+
+CProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375925225.767288
+e375925227.470909
+r1
+xProcessPCH
+x/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.pth
+xBTLE Transfer/BTLE Transfer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile BTLE Transfer/BTLE Transfer-Prefix.pchb9aac4e92968b641^a88b78eb2968b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLE%20Transfer-Prefix.pch0000000000000000^3679"ProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources/i386" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphonesimulator/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator --serialize-diagnostics "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch" -o "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-fcjjoutzzpfjtygxxumdjgojguyt/BTLE Transfer-Prefix.pch.d"36"F7C80825-0E4F-42D6-9394-E1B9FDF113B4-
+
+CTouch "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"
+s375925229.219230
+e375925229.226771
+r1
+xTouch
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app1e3338ed2968b641^520e3aed2968b641^---0#0#0#--394"Touch "build/Debug-iphonesimulator/BTLE Transfer.app"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"3BD4D989-87B3-44F1-A365-FBB5BFA5671F-
+
+CTouch "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"
+s375757752.507109
+e375757752.551058
+r1
+xTouch
+x/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.appdee681b89b65b641^de218db89b65b641^---0#0#0#--398"Touch "build/Debug-iphonesimulator/BTLE Transfer.app"    cd /Users/dane/Downloads/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/dane/Downloads/BTLE_Transfer/build/Debug-iphonesimulator/BTLE Transfer.app"36"18B378B1-E185-4956-ADA8-D6A2316C8BDD-
+

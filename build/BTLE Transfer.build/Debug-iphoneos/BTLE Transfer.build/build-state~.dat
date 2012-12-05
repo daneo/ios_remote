@@ -1,0 +1,679 @@
+TBTLE Transfer
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist"
+cProcessInfoPlistFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Info.plist" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist"
+cProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer" normal armv7
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer" normal armv7s
+cCreateUniversalBinary "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer" normal "armv7 armv7s"
+cGenerateDSYMFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app.dSYM" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer"
+cCopyStringsFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"
+cCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"
+cCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png" "BTLE Transfer/../Icon-57.png"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png" "BTLE Transfer/../Icon-114.png"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png" "BTLE Transfer/../Icon-72.png"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png" "BTLE Transfer/../Icon-144.png"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png" "BTLE Transfer/../Default-Portrait@2x~ipad.png"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png" "BTLE Transfer/../Default-Portrait~ipad.png"
+cCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png" "BTLE Transfer/../Default-568h@2x.png"
+cProcessProductPackaging "/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision"
+cTouch "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent"
+cCodeSign "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c000000005092FFF50000000000000132
+t1351811061
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050887BC50000000000000094
+t1351121861
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050887BC50000000000000096
+t1351121861
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+c0000000050887BC80000000000048430
+t1351121864
+s295984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050887BC80000000000322740
+t1351121864
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050887BCA0000000000629C80
+t1351121866
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050887BC900000000000015F7
+t1351121865
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050887BCB0000000000000E8D
+t1351121867
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050887BD000000000011BA850
+t1351121872
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c0000000050887BD40000000000001B54
+t1351121876
+s6996
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-568h@2x.png
+c00000000505D00E60000000000008C91
+t1348272358
+s35985
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-Portrait@2x~ipad.png
+c00000000505D00E6000000000000E48F
+t1348272358
+s58511
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-Portrait~ipad.png
+c00000000505CB32400000000000049DE
+t1348252452
+s18910
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-114.png
+c00000000505CB3240000000000000666
+t1348252452
+s1638
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-144.png
+c00000000505CB3240000000000000A68
+t1348252452
+s2664
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-57.png
+c00000000505CB3240000000000000544
+t1348252452
+s1348
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-72.png
+c00000000505CB3240000000000000938
+t1348252452
+s2360
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+c00000000507DB8E500000000000010DF
+t1350416613
+s4319
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist
+c00000000505CB3240000000000000744
+t1348252452
+s1860
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch
+c00000000505CB3240000000000000145
+t1348252452
+s325
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+c00000000507DB8E50000000000003044
+t1350416613
+s12356
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+c0000000050B9402E0000000000002947
+t1354317870
+s10567
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m
+c00000000505CB4490000000000000B33
+t1348252745
+s2867
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/InfoPlist.strings
+c00000000505CB449000000000000002D
+t1348252745
+s45
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard
+c00000000505CB44900000000000035FF
+t1348252745
+s13823
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard
+c00000000505CB4490000000000003703
+t1348252745
+s14083
+
+N/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m
+c00000000505CB4490000000000000A63
+t1348252745
+s2659
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer.LinkFileList
+c0000000050BD274100000000000002A5
+t1354573633
+s677
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer.LinkFileList
+c0000000050BD274100000000000002AA
+t1354573633
+s682
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app.dSYM
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Info.plist
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/PkgInfo
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision
+c0000000050BD265D0000000000001CF5
+t1354573405
+s7413
+
+N/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.pth
+t2
+s0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m"
+r0
+
+CBuild AST from "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf4dd15c15e6db641^bf462ec15e6db641^---0#1#0#--18"Check dependencies36"201CCD48-539E-4118-B9FC-A8B3BFA71EB9-
+
+CCodeSign "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"
+s376266441.452961
+e376266447.300068
+r1
+xCodeSign
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"CodeSign "build/Debug-iphoneos/BTLE Transfer.app"5f0d74c95e6db641^04e34ccf5e6db641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE%20Transfer.app/0000000000000000^812"CodeSign "build/Debug-iphoneos/BTLE Transfer.app"    cd /Users/dane/Desktop/BTLE_Transfer    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign dde59379792624d3f22222e3474aa59ac8995b9b "--resource-rules=/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist" --entitlements "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"36"91743224-921C-4728-824E-21AA24585CB4-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266434.390224
+e376266435.037325
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.mfc1764c25e6db641^e8a209c35e6db641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/AppDelegate.m0000000000000000^3477"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.o" "BTLE Transfer/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/AppDelegate.o"36"7CBCF69E-7D2E-4E1D-913D-C27774C35036-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.038609
+e376266435.725327
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m8d080ac35e6db641^d235bbc35e6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLECentralViewController.m0000000000000000^3561"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.o" "BTLE Transfer/BTLECentralViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLECentralViewController.o"36"DD59A97F-A562-4130-82FC-9246284F9C81-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.119217
+e376266435.683963
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m6daa1ec35e6db641^6a17afc35e6db641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLEPeripheralViewController.m0000000000000000^3579"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.o" "BTLE Transfer/BTLEPeripheralViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLEPeripheralViewController.o"36"45AE16E3-DCD8-475B-8CE5-B4058E19B7CE-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.028033
+e376266435.117864
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.mc85e07c35e6db641^ed471ec35e6db641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/ViewController.m0000000000000000^3495"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.o" "BTLE Transfer/ViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/ViewController.o"36"7B257166-1CE7-4229-B484-7BBAE03380C4-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266434.390560
+e376266435.026642
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m791e64c25e6db641^c4d006c35e6db641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/main.m0000000000000000^3435"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.o" "BTLE Transfer/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/main.o"36"19E8E6DA-9A1D-451D-B220-CC5C6F6DC170-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.755561
+e376266435.848337
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.mecdbc1c35e6db641^062cd9c35e6db641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/AppDelegate.m0000000000000000^3484"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.o" "BTLE Transfer/AppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7s" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/AppDelegate.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/AppDelegate.o"36"496569DB-B20D-49F8-B716-847080DD9240-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.849655
+e376266436.027871
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m00a9d9c35e6db641^a32107c45e6db641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLECentralViewController.m0000000000000000^3568"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.o" "BTLE Transfer/BTLECentralViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7s" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLECentralViewController.o"36"2F093273-8518-43A3-B0A7-362803790932-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266436.029218
+e376266436.256950
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m139b07c45e6db641^97c841c45e6db641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLEPeripheralViewController.m0000000000000000^3586"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.o" "BTLE Transfer/BTLEPeripheralViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7s" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLEPeripheralViewController.o"36"9E387838-E8CF-49E4-AFEE-CC1D373792DB-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.757828
+e376266435.839062
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m0c22c2c35e6db641^b0e4d6c35e6db641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/ViewController.m0000000000000000^3502"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.o" "BTLE Transfer/ViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7s" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/ViewController.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/ViewController.o"36"0A1DED1F-2567-4772-A14E-B77DF631EA17-
+
+CCompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.o" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266435.685333
+e376266435.742650
+r1
+xCompileC
+xbuild/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.o
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m5f95afc35e6db641^124bbec35e6db641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/main.m0000000000000000^3442"CompileC "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.o" "BTLE Transfer/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7s" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -include "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch" -MMD -MT dependencies -MF "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.d" --serialize-diagnostics "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/main.m" -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/main.o"36"039C77D8-BE14-4D8D-8B22-7A1DDCB3347E-
+
+CCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"
+s376266437.400872
+e376266440.723437
+r1
+xCompileStoryboard
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"74b466c55e6db641^5b43b9c85e6db641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^895"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard"    cd /Users/dane/Desktop/BTLE_Transfer    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/MainStoryboard_iPad.storyboardc" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPad.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"5EE306ED-861F-4E7A-AD70-34B7289F87A3-
+
+CCompileStoryboard "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"
+s376266437.373146
+e376266440.757143
+r1
+xCompileStoryboard
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"80995fc55e6db641^0fd4c1c85e6db641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^901"CompileStoryboard "BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard"    cd /Users/dane/Desktop/BTLE_Transfer    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/MainStoryboard_iPhone.storyboardc" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/en.lproj/MainStoryboard_iPhone.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"7F2CB349-A6A0-48B2-A143-409A630009B1-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png" "BTLE Transfer/../Default-568h@2x.png"
+s376266441.176096
+e376266441.333018
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png
+xBTLE Transfer/../Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png" "BTLE Transfer/../Default-568h@2x.png"ed292dc95e6db641^254055c95e6db641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Default-568h@2x.png0000000000000000^623"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png" "BTLE Transfer/../Default-568h@2x.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-568h@2x.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-568h@2x.png"36"86DEBFAA-C608-4FE8-88A6-B52500974D21-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png" "BTLE Transfer/../Default-Portrait@2x~ipad.png"
+s376266441.012896
+e376266441.364272
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png
+xBTLE Transfer/../Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png" "BTLE Transfer/../Default-Portrait@2x~ipad.png"e06403c95e6db641^9a405dc95e6db641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Default-Portrait@2x~ipad.png0000000000000000^659"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png" "BTLE Transfer/../Default-Portrait@2x~ipad.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-Portrait@2x~ipad.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait@2x~ipad.png"36"BA86BD48-4640-4473-BD5F-726F4CFDC30F-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png" "BTLE Transfer/../Default-Portrait~ipad.png"
+s376266441.033181
+e376266441.174777
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png
+xBTLE Transfer/../Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png" "BTLE Transfer/../Default-Portrait~ipad.png"5b9508c95e6db641^babd2cc95e6db641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Default-Portrait~ipad.png0000000000000000^647"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png" "BTLE Transfer/../Default-Portrait~ipad.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Default-Portrait~ipad.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Default-Portrait~ipad.png"36"79D9314E-C8A8-4B23-ACC8-D03FBD90ED64-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png" "BTLE Transfer/../Icon-114.png"
+s376266440.758424
+e376266440.954395
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png
+xBTLE Transfer/../Icon-114.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png" "BTLE Transfer/../Icon-114.png"573fc2c85e6db641^8352f4c85e6db641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Icon-114.png0000000000000000^595"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png" "BTLE Transfer/../Icon-114.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-114.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-114.png"36"D6D12BC4-30CF-4636-8D59-DFC53CD18440-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png" "BTLE Transfer/../Icon-144.png"
+s376266440.979678
+e376266441.031845
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png
+xBTLE Transfer/../Icon-144.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png" "BTLE Transfer/../Icon-144.png"0de3fac85e6db641^672608c95e6db641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Icon-144.png0000000000000000^595"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png" "BTLE Transfer/../Icon-144.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-144.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-144.png"36"C81E32B3-3F47-4831-B016-E984B25A7C68-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png" "BTLE Transfer/../Icon-57.png"
+s376266440.733595
+e376266440.978332
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png
+xBTLE Transfer/../Icon-57.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png" "BTLE Transfer/../Icon-57.png"69e4bbc85e6db641^9486fac85e6db641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Icon-57.png0000000000000000^591"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png" "BTLE Transfer/../Icon-57.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-57.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-57.png"36"6997A83F-5EA3-4B7F-9D1A-C6B43F2FEF52-
+
+CCopyPNGFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png" "BTLE Transfer/../Icon-72.png"
+s376266440.955796
+e376266441.011524
+r1
+xCopyPNGFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png
+xBTLE Transfer/../Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png" "BTLE Transfer/../Icon-72.png"dfdff4c85e6db641^f5f702c95e6db641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/../Icon-72.png0000000000000000^591"CopyPNGFile "build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png" "BTLE Transfer/../Icon-72.png"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/../Icon-72.png" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Icon-72.png"36"602C8A82-408C-4C0B-BCCB-C2D3941CE8A2-
+
+CCopyStringsFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"
+s376266437.372555
+e376266437.399597
+r1
+xCopyStringsFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj/InfoPlist.strings
+xBTLE Transfer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy BTLE Transfer/en.lproj/InfoPlist.strings4a7b5fc55e6db641^f14a66c55e6db641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/en.lproj/InfoPlist.strings0000000000000000^576"CopyStringsFile "build/Debug-iphoneos/BTLE Transfer.app/en.lproj/InfoPlist.strings" "BTLE Transfer/en.lproj/InfoPlist.strings"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/en.lproj" -- "BTLE Transfer/en.lproj/InfoPlist.strings"36"51F31B02-63F3-45AC-99BC-6EE18A43EE13-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist"
+s376266433.191060
+e376266433.239560
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist162f32c15e6db641^0e2d3ec15e6db641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE%20Transfer.app/ResourceRules.plist000000000080d041^732"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"36"A21BC38D-5373-4EA0-A65E-EFD8FBAE7552-
+
+CCreateUniversalBinary "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer" normal "armv7 armv7s"
+s376266437.210636
+e376266437.266620
+r1
+xCreateUniversalBinary
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Create universal binary /Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transferee5d3bc55e6db641^bc4144c55e6db641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE%20Transfer.app/BTLE%20Transfer000000000080d041^707"CreateUniversalBinary "build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer" normal "armv7 armv7s"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer" "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer" -output "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer"36"11425EBC-B627-4733-8041-375CFCB9FD81-
+
+CGenerateDSYMFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app.dSYM" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer"
+s376266437.273451
+e376266437.364132
+r1
+xGenerateDSYMFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app.dSYM
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generating /Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app.dSYM371846c55e6db641^a0375dc55e6db641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE%20Transfer.app.dSYM000000000080d041^619"GenerateDSYMFile "build/Debug-iphoneos/BTLE Transfer.app.dSYM" "build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/BTLE Transfer" -o "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app.dSYM"36"4C47AB6A-61C5-4E15-8140-30B8B271BC1A-
+
+CLd "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer" normal armv7
+s376266435.840391
+e376266437.203803
+r1
+xLd
+x/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer0c40d7c35e6db641^9b3934c55e6db641^---0#0#0#--1168"Ld "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer" normal armv7    cd /Users/dane/Desktop/BTLE_Transfer    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -filelist "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7/BTLE Transfer"36"BCA9BD87-439D-4F5D-928C-A3B46FEF9A00-
+
+CLd "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer" normal armv7s
+s376266436.263813
+e376266437.203702
+r1
+xLd
+x/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer7fa543c45e6db641^8b3534c55e6db641^---0#0#0#--1173"Ld "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer" normal armv7s    cd /Users/dane/Desktop/BTLE_Transfer    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos -filelist "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/Objects-normal/armv7s/BTLE Transfer"36"4466590C-F764-4304-9CBE-EC141F4BE1B5-
+
+CProcessInfoPlistFile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Info.plist" "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist"
+s376266433.191683
+e376266433.244709
+r1
+xProcessInfoPlistFile
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Info.plist
+x/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Process /Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plistd33232c15e6db641^cfbe3ec15e6db641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLE%20Transfer-Info.plist0000000000000000^800"ProcessInfoPlistFile "build/Debug-iphoneos/BTLE Transfer.app/Info.plist" "BTLE Transfer/BTLE Transfer-Info.plist"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Info.plist" -genpkginfo "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/ResourceRules.plist" -o "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/Info.plist"36"182F4B29-199F-45EE-9604-45AC448AA51F-
+
+CProcessPCH "/Users/dane/Library/Developer/Xcode/DerivedData/BTLE_Transfer-bquiqqhtzropmpagxvbvnmmgcoiv/Index/PrecompiledHeaders/BTLE Transfer-Prefix-bxotdgjqdubrmiarqyfvujmpirkn_ast/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/dane/Library/Developer/Xcode/DerivedData/BTLE_Transfer-bquiqqhtzropmpagxvbvnmmgcoiv/Index/PrecompiledHeaders/BTLE Transfer-Prefix-cnilxzlwywyfuoafoygnzquxpmiy_ast/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266433.254988
+e376266434.383160
+r1
+xProcessPCH
+x/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.pth
+xBTLE Transfer/BTLE Transfer-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile BTLE Transfer/BTLE Transfer-Prefix.pchb93442c15e6db641^f81662c25e6db641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLE%20Transfer-Prefix.pch0000000000000000^3530"ProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos --serialize-diagnostics "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch" -o "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-ddbjozhkzyharqbttuoohovllbui/BTLE Transfer-Prefix.pch.d"36"9AAF495A-AC5A-41F7-8EDC-D9E424A57B51-
+
+CProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376266433.258620
+e376266434.383767
+r1
+xProcessPCH
+x/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.pth
+xBTLE Transfer/BTLE Transfer-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile BTLE Transfer/BTLE Transfer-Prefix.pch475642c15e6db641^5e4d62c25e6db641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/dane/Desktop/BTLE_Transfer/BTLE%20Transfer/BTLE%20Transfer-Prefix.pch0000000000000000^3533"ProcessPCH "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.pth" "BTLE Transfer/BTLE Transfer-Prefix.pch" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dane/Desktop/BTLE_Transfer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-generated-files.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-own-target-headers.hmap" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-all-target-headers.hmap" -iquote "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer-project-headers.hmap" -I/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources/armv7s" "-I/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/DerivedSources" -F/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos --serialize-diagnostics "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.dia" -c "/Users/dane/Desktop/BTLE_Transfer/BTLE Transfer/BTLE Transfer-Prefix.pch" -o "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/fx/_t3wwttn0p10b1p84s5j80vc0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/BTLE Transfer-Prefix-gramjlxamcsllbfvaibtauptrkgl/BTLE Transfer-Prefix.pch.d"36"D670C922-BFDB-4A9E-98B3-78C07AAA0BA6-
+
+CProcessProductPackaging "/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision" "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision"
+s376266441.384421
+e376266441.387603
+r1
+xProcessProductPackaging
+x/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging "/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision" "build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision"498062c95e6db641^ac3a63c95e6db641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE%20Transfer.app/embedded.mobileprovision0000000000000000^678"ProcessProductPackaging "/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision" "build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/dane/Library/MobileDevice/Provisioning Profiles/4B52893A-820B-41CC-845C-EFE64FEBCD56.mobileprovision" -o "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app/embedded.mobileprovision"36"9A62F718-AE0E-4A1E-994B-1AB9061416EA-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent"
+s376266441.439597
+e376266441.444847
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent"a5a370c95e6db641^8fe171c95e6db641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/dane/Desktop/BTLE_Transfer/build/BTLE%20Transfer.build/Debug-iphoneos/BTLE%20Transfer.build/BTLE%20Transfer.xcent000000000080d041^760"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/dane/Desktop/BTLE_Transfer/build/BTLE Transfer.build/Debug-iphoneos/BTLE Transfer.build/BTLE Transfer.xcent"36"3E814F22-1D3F-48EE-A178-0B32A848A777-
+
+CTouch "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"
+s376266441.395722
+e376266441.431771
+r1
+xTouch
+x/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app706165c95e6db641^408a6ec95e6db641^---0#0#0#--373"Touch "build/Debug-iphoneos/BTLE Transfer.app"    cd /Users/dane/Desktop/BTLE_Transfer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/dane/Desktop/BTLE_Transfer/build/Debug-iphoneos/BTLE Transfer.app"36"36647D95-B92E-4F17-89B8-53D31667E12E-
+
